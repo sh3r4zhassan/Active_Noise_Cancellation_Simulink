@@ -1,6 +1,6 @@
 # Active_Noise_Cancellation_Simulink
 
-Goal of our ANC model is to remove all the sounds at a point (input). This is achieved  by actively cancelling all the noise by creating an audio which destructively interferes with it. 
+Goal of this ANC model is to remove all the sounds at a point (input). This is achieved by actively cancelling this noise by generating an audio which destructively interferes with it. 
 
 # Components of the ANC
 Functionality of different components used can be seen below
