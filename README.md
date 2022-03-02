@@ -13,4 +13,5 @@ Functionality of different components used can be seen below
   The sound from secondary path is given as input to the LMS (least mean square) algorithm. The error, that is the sound heard which should have been suppressed, is given to the algorithm in addition. The algorithm calculates coefficients for LMS. The transpose of the output, the LMS coefficients vector is:
 1)	Saved to the variable “simout”.
 2)	Fed to the LMS filter copy. This generates the cancelling audio which is passed through the transfer function of the secondary path.
+
 The summation of cancelling audio and audio from primary path gives the error which is fed to LMS algorithm. The error and primary sound are fed to a multiplexer to display simultaneously on single scope. A speaker is also attached to error sound.
